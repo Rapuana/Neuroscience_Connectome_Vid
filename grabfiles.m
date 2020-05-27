@@ -1,6 +1,8 @@
 function [VEm, empty, emptyVals] = grabfiles(FB, PredAnti, Pers)
 %GRABFILES [VEm, empty, emptyVals] = grabfiles(FB, PredAnti, Pers) is a 
-% function used to obtain the values from the file locations. Here we look 
+% function used to obtain the values from the file locations. 
+%
+% AUTHOR:  Samuel Dudley (dudley.physics@gmail.com) 2019
 
 % FB        -> part1 = 'Body'; % Face or Body
 % PredAnti  -> part2 = 'Predic'; % Anti or Predic 
