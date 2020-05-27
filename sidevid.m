@@ -1,5 +1,7 @@
 function sidevid(outfilename, fps, timerange, Patient, FB, normalise)
 %SIDEVID VEm1 is Predic, VEm2 is Anti
+%
+% AUTHOR: Samuel Dudley (dudley.physics@gmail.com) 2019
 
 [VEm1, eA] = grabfiles(FB, 'Predic', Patient);
 [VEm2, eP] = grabfiles(FB, 'Anti', Patient);
